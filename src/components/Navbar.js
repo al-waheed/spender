@@ -33,7 +33,7 @@ function Navbar() {
 			<div className="navbar-container container">
                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu} >
 				   <img src="/img/logo.png" alt="icon" className="navbar-icon"/>
-                       SQUANDER
+                       SPENDER
 				   </Link>
 				   <div className="menu-icon" onClick={handleClick}>
 				   {click ? <FontAwesomeIcon icon={faTimes} className='fa-times' /> : 
@@ -46,12 +46,12 @@ function Navbar() {
 						  </Link>
 					   </li>
 					   <li className="nav-item">
-					      <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+					      <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
                              Services
 						  </Link>
 					   </li>
 					   <li className="nav-item">
-					      <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+					      <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
                              Products
 						  </Link>
 					   </li>

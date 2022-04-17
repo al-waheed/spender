@@ -68,10 +68,10 @@ function Footer() {
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
 			  <img src="/img/logo.png" alt="icon" className="navbar-icon"/>
-              SQUANDER
+              SPENDER
             </Link>
           </div>
-          <small className='website-rights'>SQUANDER ©2020</small>
+          <small className='website-rights'>SPENDER ©2022</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link'
